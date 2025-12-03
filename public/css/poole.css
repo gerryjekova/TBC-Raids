@@ -41,7 +41,18 @@
           box-sizing: border-box;
 }
 
-html,
+html {
+  font-family: "Crimson Text", "Georgia", serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Headers use fantasy font */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cinzel', serif;
+  letter-spacing: 1px;
+}
+
 body {
   margin: 0;
   padding: 0;

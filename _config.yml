@@ -7,15 +7,17 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
+title: TBC Raid Helper
+tagline: 'Complete PUG Raid Organization Guide'
+description: 'Comprehensive guides for organizing WoW TBC Classic PUG raids with Discord automation'
+url: https://yourdomain.com
+baseurl: /
 
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+# Add logo path
+logo: /public/images/logo.png
+
+# Buy Me a Coffee
+coffee_link: https://www.buymeacoffee.com/yourusername
 
 paginate:         5
 
