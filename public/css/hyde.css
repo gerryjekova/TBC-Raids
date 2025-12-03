@@ -274,7 +274,7 @@ a.sidebar-nav-item:focus {
 .guide-footer {
   margin-top: 3rem;
   padding-top: 2rem;
-  border-top: 1px solid #eee;
+  border-top: 1px solid hsl(212, 79%, 64%);
   text-align: right;
 }
 
@@ -849,4 +849,20 @@ body {
 /* Darker guide boxes */
 .theme-wow-tbc .page > div[style*="padding: 1rem"] {
   background: rgba(10, 10, 10, 0.5) !important;
+}
+
+/* Add this to the end of public/css/poole.css */
+
+/* Fix bold/strong text color */
+strong {
+  color: hwb(212 36% 7%); /* Blue shade instead of dark gray */
+}
+
+.theme-wow-tbc strong {
+  color: hwb(212 36% 7%);
+}
+
+/* Also fix bold text in headers if needed */
+h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
+  color: inherit; /* Inherit from parent header color */
 }
