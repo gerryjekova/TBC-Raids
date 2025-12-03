@@ -739,3 +739,114 @@ a.sidebar-nav-item:focus {
   }
 }
 
+/* Add this to the end of public/css/hyde.css or replace the WoW TBC Theme section */
+
+/* WoW TBC Color Palette - Darker Version */
+:root {
+  --wow-gold: #ffd100;
+  --wow-gold-dark: #c79c00;
+  --wow-bronze: #cd7f32;
+  --wow-fel-green: #00ff96;
+  --wow-dark-bg: #000000;
+  --wow-dark-secondary: #0a0a0a;
+  --wow-dark-tertiary: #141414;
+  --wow-border: #1a1a1a;
+  --wow-text-light: #d4c5aa;
+  --wow-highlight: #8b0000;
+  --wow-epic: #a335ee;
+  --wow-rare: #0070dd;
+  --wow-uncommon: #1eff00;
+}
+
+/* Darker body background */
+body {
+  background-color: #000000;
+}
+
+/* Darker sidebar */
+.theme-wow-tbc .sidebar {
+  background: linear-gradient(135deg, #000000 0%, #0a0a0a 50%, #050a05 100%);
+  border-right: 3px solid var(--wow-bronze);
+  box-shadow: inset -5px 0 15px rgba(0, 255, 150, 0.1);
+}
+
+/* Darker content background */
+.theme-wow-tbc .content {
+  background-color: #000000;
+  color: #b8b8b8;
+}
+
+/* Darker code blocks */
+.theme-wow-tbc pre {
+  background: linear-gradient(to bottom, #0a0a0a, #000000);
+  border: 2px solid var(--wow-bronze);
+  border-radius: 4px;
+  box-shadow: 
+    inset 0 1px 3px rgba(0, 0, 0, 0.8),
+    0 0 10px rgba(205, 127, 50, 0.3);
+  color: var(--wow-text-light);
+}
+
+/* Darker tables */
+.theme-wow-tbc table {
+  background: linear-gradient(to bottom, #0a0a0a, #000000);
+  border: 2px solid var(--wow-bronze);
+  box-shadow: 0 0 15px rgba(205, 127, 50, 0.3);
+}
+
+.theme-wow-tbc th {
+  background: linear-gradient(to bottom, #141414, #0a0a0a);
+  color: var(--wow-gold);
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  border-bottom: 2px solid var(--wow-bronze);
+}
+
+.theme-wow-tbc td {
+  color: var(--wow-text-light);
+  border-color: var(--wow-border);
+}
+
+.theme-wow-tbc tbody tr:hover {
+  background: rgba(205, 127, 50, 0.15);
+}
+
+/* Darker blockquotes */
+.theme-wow-tbc blockquote {
+  background: linear-gradient(135deg, rgba(255, 209, 0, 0.03), rgba(205, 127, 50, 0.03));
+  border-left: 4px solid var(--wow-gold);
+  color: var(--wow-text-light);
+  font-style: italic;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Darker message boxes */
+.theme-wow-tbc .message {
+  background: linear-gradient(135deg, #0a0a0a, #050505);
+  color: var(--wow-text-light);
+  border: 1px solid var(--wow-border);
+}
+
+/* Darker TOC sidebar */
+.toc-sidebar {
+  background: linear-gradient(135deg, rgba(10, 10, 10, 0.98), rgba(0, 0, 0, 0.98));
+  border: 2px solid var(--wow-bronze);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+}
+
+/* Adjust text contrast for readability */
+.theme-wow-tbc .content {
+  color: #c0c0c0;
+}
+
+.theme-wow-tbc p,
+.theme-wow-tbc li {
+  color: #b8b8b8;
+}
+
+/* Darker guide boxes */
+.theme-wow-tbc .page > div[style*="padding: 1rem"] {
+  background: rgba(10, 10, 10, 0.5) !important;
+}
